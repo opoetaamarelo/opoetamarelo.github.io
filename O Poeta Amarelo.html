@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>O Poeta Amarelo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "courier new", courier, monospace;
+            font-size: 16px;
+        }
+        
+        header {
+            background-color: #ffe227;
+            color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: #000000;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+        
+        nav ul li a:hover {
+            background-color: #fff;
+            color: #000000;
+        }
+        
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        
+        article {
+            width: 600px;
+            margin-right: 20px;
+        }
+        
+        aside {
+            width: 300px;
+        }
+        
+        footer {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        #rodape {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        #contato {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        form {
+            width: 300px;
+            height: 250px;
+            padding: 20px;
+            margin-right: 20px;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        
+        ul li {
+            margin-right: 10px;
+        }
+        
+        button {
+            background-color: #ffe227;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #000;
+            color: #ffe227;
+        }
+    </style>
+</head>
+<body>
+        <header>
+            <h1>O Poeta Amarelo</h1>
+            <p>Um espaço para leitores.</p>
+        </header>
+        <nav>
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="#">Minhas histórias</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Apoie!</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+        <section id="destaques">
+            <h2>Destaques</h2>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="imagens/OPA_1.1.png" alt="Exemplo de imagem">
+                        <h3>Livro 1</h3>
+                        <p>Descrição do livro 1.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="imagens/OPA_1.2.png" alt="Exemplo de imagem">
+                        <h3>Livro 2</h3>
+                        <p>Descrição do livro 2.</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="imagens/OPA_1.3.png" alt="Exemplo de imagem">
+                        <h3>Livro 3</h3>
+                        <p>Descrição do livro 3.</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section id="contato" style="margin: 20px 10px 30px 10px;">
+        <p>
+            "EU
+            <br>
+            Cavaleiro das armas escuras,
+            <br>
+            Onde vais por terras impuras
+            <br>
+            Com a espada sanguenta na mão?
+            <br>
+            Por que brilham teus lábios frementes
+            <br>
+            Vertem fogo do teu coração?"
+            <br>
+            <cite>~Álvares de Azevedo</cite>
+        </p>
+        </section>
+        <section id="contato" style="margin: 20px 10px 30px 10px;">
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+        
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
+            <section id="redes-sociais">
+                <h2>Siga-nos nas redes sociais!</h2>
+                <ul>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 - O Poeta Amarelo</p>
+    </footer>
+    
